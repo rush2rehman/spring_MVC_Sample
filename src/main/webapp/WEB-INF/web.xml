@@ -18,5 +18,10 @@
       	<url-pattern>/</url-pattern>
       </servlet-mapping>
       
+          <servlet-mapping>
+      	<servlet-name>MVCSampleServlet</servlet-name>
+      	<url-pattern>/staticcontent/**</url-pattern>
+      </servlet-mapping>
+      
 
 </web-app>
